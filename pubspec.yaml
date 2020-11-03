@@ -1,6 +1,7 @@
 name: flutter_localization
+description: Localization support library for flutter application
 version: 0.0.1
-author: Yuriy Bereguliak
+author: Yuriy Bereguliak <ybereguliak95@gmail.com>
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
