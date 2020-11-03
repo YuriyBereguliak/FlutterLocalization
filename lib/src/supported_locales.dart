@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class FlutterSupportedLocales {
+class AppSupportedLocales {
   /// If received locale is supported
   /// Otherwise, return first supported language
   Locale localeResolutionCallback(
