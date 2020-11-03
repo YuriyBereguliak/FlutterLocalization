@@ -6,9 +6,11 @@ Iterable<LocalizationsDelegate<dynamic>> provideDelegates(
   List<Locale> locales,
   String pathToTranslations,
 ) {
-  final List<String> languageCodes = locales.map(
-    (locale) => locale.languageCode,
-  );
+  final List<String> languageCodes = locales
+      .map(
+        (locale) => locale.languageCode,
+      )
+      .toList();
   return [
     AppLocalizationDelegate(languageCodes, pathToTranslations),
     GlobalMaterialLocalizations.delegate,
