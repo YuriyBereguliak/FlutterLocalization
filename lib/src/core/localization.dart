@@ -15,7 +15,7 @@ class AppLocalization {
 
   AppLocalization(this.locale);
 
-  //region HotDocLocalization
+  //region AppLocalization
   Future<bool> load(String pathToFolder) async {
     /// Format path to folder with translations
     var translationFile = '$pathToFolder/${locale.languageCode}.json';
